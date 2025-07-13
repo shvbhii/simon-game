@@ -1,4 +1,4 @@
-/* src/main.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
@@ -96,9 +96,8 @@ body {
 }
 .instructions-button:hover { background-color: #2980b9; }
 
-.modal-overlay { /* ... modal styles remain the same ... */ }
-.modal-content { /* ... modal styles remain the same ... */ }
-/* (Previous modal styles are unchanged and included for completeness) */
+.modal-overlay 
+.modal-content 
 .modal-overlay {
   position: fixed; top: 0; left: 0; width: 100%; height: 100%;
   background-color: rgba(0, 0, 0, 0.7); display: flex;
@@ -118,7 +117,7 @@ body {
   border: none; color: white; cursor: pointer; font-size: 1.5rem;
 }
 
-/* --- NEW STYLES FOR FOOTER --- */
+
 .footer-container {
   text-align: center;
   width: 100%;

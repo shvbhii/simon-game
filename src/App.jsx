@@ -1,8 +1,8 @@
-// src/App.jsx
+
 import { useState, useEffect } from 'react';
 import ColorPad from './components/ColorPad';
 import InstructionsModal from './components/InstructionsModal';
-import Footer from './components/Footer'; // Import the new Footer
+import Footer from './components/Footer'; 
 import { FiHelpCircle } from 'react-icons/fi';
 import './main.css';
 
@@ -76,7 +76,7 @@ function App() {
       {showInstructions && <InstructionsModal onClose={() => setShowInstructions(false)} />}
       
       <div className="game-board">
-        {/* ... Game board JSX remains the same ... */}
+        
         <div className="center-circle">
           {gameState === 'start' && <button onClick={startGame}>Start</button>}
           {gameState === 'watching' && <p>Watch</p>}
@@ -104,7 +104,7 @@ function App() {
         <span>How to Play</span>
       </button>
 
-      {/* Render the new Footer component here */}
+      
       <Footer />
     </div>
   );

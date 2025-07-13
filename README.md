@@ -13,9 +13,8 @@ This project is Day 13 of my **#30DaysOfVibeCoding** challenge.
 
 Test your memory with the live, deployed version of the application on Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://demo.vercel.app)
+[![Deploy with Vercel](https://vercel.com/button)](https://simon-game-indol-five.vercel.app/)
 
-*(**Action Required:** Replace `https://demo.vercel.app` with your actual Vercel deployment link)*
 
 ---
 
@@ -65,9 +64,8 @@ Make sure you have Node.js and npm installed on your machine.
 1.  Fork the project (click the "Fork" button in the top right of the GitHub page).
 2.  Clone your forked repository:
     ```sh
-    git clone https://github.com/shvbhi/simon-game.git
+    git clone https://github.com/shvbhii/simon-game.git
     ```
-    *(This URL is already set to your username based on previous projects!)*
 
 ### Installation & Running
 
